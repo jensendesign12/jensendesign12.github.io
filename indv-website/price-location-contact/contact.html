@@ -1,0 +1,72 @@
+<!Doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contact Us</title>
+</head>
+<style>
+    body {background-color: lightsteelblue;}
+    h1 { text-align: center; font-size: 215%;line-height: 135%;} 
+    
+    body {font-family: Arial, Helvetica, sans-serif;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #2acc55;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #2acc55;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #fcfca9;
+    padding: 20px;
+}
+    
+</style>
+<body>
+<p>&nbsp;</p>
+<h1>Contact Us</h1>
+    <p>If you would like to make an appointment or if you need more questions to answer just call us or email us at the number and email below. Or you can contact us in the contact form pasted below.</p>
+    <p> Here is the number: (302) 212 - 0477</p>
+    <p>Here is the email address: the.escape.house@gmail.com</p>
+    
+   <h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">Your Name(required)</label>
+    <input type="text" id="" name="name" placeholder="Your name..">
+
+    <label for="lname">Your Email</label>
+    <input type="text" id="email" name="email" placeholder="Your email..">
+
+    <label for="country">Subject</label>
+    <input type="text" id="subject" name="subject" placeholder="Subject..">
+
+    <label for="subject">Message</label>
+    <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div> 
+<a href= "../../index.html">Home</a>
+</body>
+</html>
