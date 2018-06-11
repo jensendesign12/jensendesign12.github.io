@@ -70,6 +70,6 @@ nav a {
 nav > ul {
      display: flex;
      list-style-type: none;
-     line-height: 3em;
-     margin-left: 30%;
+     line-height: 1.5em;
+     margin-left: 25%;
  }
