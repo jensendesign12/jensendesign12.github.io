@@ -53,3 +53,12 @@
      padding: 20px;
      max-width: 940px;
  }
+#logo {
+     margin-bottom: -120px;
+     position: relative;
+     border-color: red;
+     background-color: white;
+     width: 10%;
+     margin-left: 1%;
+     border: 3px #941100 solid;
+ }
