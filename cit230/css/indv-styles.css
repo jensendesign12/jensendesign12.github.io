@@ -1,6 +1,12 @@
  body {
      background-color: lightsteelblue;
  }
+ nav {
+     background-color: whitesmoke;
+ }
+nav a {
+     color: #000000;
+ }
  
  .top-row {
      background-color: whitesmoke;
@@ -52,4 +58,18 @@
      align-items: center;
      padding: 20px;
      max-width: 940px;
+ }
+#logo {
+     margin-bottom: -127px;
+     position: relative;
+     background-color: black;
+     width: 30%;
+     margin-left: 0%;
+    border: 1px #000000 solid;
+ }
+nav > ul {
+     display: flex;
+     list-style-type: none;
+     line-height: 3em;
+     margin-left: 30%;
  }
