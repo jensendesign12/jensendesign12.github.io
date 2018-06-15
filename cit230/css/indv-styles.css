@@ -1,5 +1,6 @@
  body {
-     background-color: lightsteelblue;
+     background-image: url('../../indv-website/images/keys.jpg');
+     background-size: cover;
  }
  nav {
      background-color: whitesmoke;
@@ -7,8 +8,26 @@
 nav a {
      color: #000000;
  }
+
+p.b{
+    color: azure;
+}
+
+h1.w{
+    color: whitesmoke;
+}
+
+h2.w{
+    color: whitesmoke;
+}
+
+nav a:hover {
+     color: #ce1a1a;
+ }
+
 ol.c {
     list-style-type: upper-roman;
+    color: azure;
 }
  
  .top-row {
