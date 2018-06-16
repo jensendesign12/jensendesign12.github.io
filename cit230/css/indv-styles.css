@@ -9,12 +9,13 @@ nav a {
      color: #000000;
  }
 
-p.b{
-    color: azure;
+p.r{
+    color: #ce1a1a;
+    font-weight: bold;
 }
 
 h1.w{
-    color: whitesmoke;
+    color: #ce1a1a;
 }
 
 h2.w{
@@ -27,7 +28,8 @@ nav a:hover {
 
 ol.c {
     list-style-type: upper-roman;
-    color: azure;
+    color: #ce1a1a;
+    font-weight: bold;
 }
  
  .top-row {
