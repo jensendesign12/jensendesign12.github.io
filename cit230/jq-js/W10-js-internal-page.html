@@ -1,0 +1,148 @@
+<!Doctype html>
+<html lang="en-us">
+<head>
+    <style>
+    body {background-color: lightsteelblue;}
+    h2{color: #ce1a1a;}
+    
+</style>
+<meta charset="utf-8">
+<title>Leaderboard</title>
+</head>
+<script>
+/* This will display a message by window alert on the screen when you press the button below 
+*/
+function myFunction(){
+    window.alert('NONE OF THEM');
+}
+</script>
+<body>
+<p>&nbsp;</p>
+<h2 id="demo">The Butcher</h2>
+    <table style="width:20%">
+        <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <th scope="col">Team Name</th>
+                <th scope="col">Time Remaining</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <th scope="row">1st Place:</th>
+                <td>Saw Through</td>
+                <td>24:53 mins</td>
+            </tr>
+            <tr>
+            <th scope="row">2nd Place:</th>
+                <td>Kill 4 for One</td>
+                <td>24:08 mins</td>
+            </tr>
+            <tr>
+            <th scope="row">3rd Place:</th>
+                <td>The Jokesters</td>
+                <td>22:36 mins</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <button type="button" onclick='document.getElementById("demo").innerHTML = "Can you Beat me?"'>Click Me!</button>
+    
+ <hr>
+
+<h2 id="demo2">Eleven's Eggos</h2>
+    <table style="width:20%">
+        <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <th scope="col">Team Name</th>
+                <th scope="col">Time Remaining</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <th scope="row">1st Place:</th>
+            <td>The MindFlayers</td>
+            <td>28:56 mins</td>
+            </tr>
+            <tr>
+                <th scope="row">2nd Place:</th>
+                <td>Bye Bye Byers</td>
+                <td>25:14 mins</td>
+            </tr>
+            <tr>
+                <th scope="row">3rd Place:</th>
+                <td>Shadow Monsters</td>
+                <td>20:28 mins</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <button type="button" onclick='document.getElementById("demo2").innerHTML = "This is too impossible for you"'>Click Me!</button>
+    
+ <hr>
+    
+<h2>The Lunatic Down on 4th Street</h2>
+    <table style="width:20%">
+        <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <th scope="col">Team Name</th>
+                <th scope="col">Time Remaining</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <th scope="row">1st Place:</th>
+            <td>Untouchables</td>
+            <td>37:40 mins</td>
+            </tr>
+            <tr>
+                <th scope="row">2nd Place:</th>
+                <td>Dream Crushers</td>
+                <td>30:44 mins</td>
+            </tr>
+            <tr>
+                <th scope="row">3rd Place:</th>
+                <td>Rampage</td>
+                <td>25:16 min</td>
+            </tr>
+        </tbody>
+    </table>
+ <hr>
+    
+<h2>Hacker House</h2>
+    <table style="width:20%">
+        <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <th scope="col">Team Name</th>
+                <th scope="col">Time Remaining</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <th scope="row">1st Place:</th>
+            <td>Smooth Criminals</td>
+            <td>30:19 mins</td>
+            </tr>
+            <tr>
+                <th scope="row">2nd Place:</th>
+                <td>Huntsmen</td>
+                <td>23:38 mins</td>
+            </tr>
+            <tr>
+                <th scope="row">3rd Place:</th>
+                <td>Rainbow Warriors</td>
+                <td>19:05 mins</td>
+            </tr>
+        </tbody>
+    </table>
+ <hr>
+    <h2>Which room do you think you can beat?</h2> 
+    <button type="button" onclick="myFunction()">Click Me!</button> <br>
+    
+    <h2 onclick="this.innerHTML='You Lost'">Wanna play a game?</h2>
+</body>
+<a href="../../index.html">Home</a>
+</html>
