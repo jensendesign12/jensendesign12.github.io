@@ -39,8 +39,14 @@ input[type=submit]:hover {
     background-color: #fcfca9;
     padding: 20px;
 }
-    
 </style>
+<script>
+/* This will display a message by window alert on the screen when you press the button below 
+*/
+function myFunction(){
+    window.alert('Thank you for submitting! We will get that booked for you!');
+}
+</script>
 <body>
 <p>&nbsp;</p>
 <h1>Contact Us</h1>
@@ -58,13 +64,17 @@ input[type=submit]:hover {
     <label for="lname">Your Email</label>
     <input type="text" id="email" name="email" placeholder="Your email..">
 
-    <label for="country">Subject</label>
+    <label for="country">Pick the room</label>
     <input type="text" id="subject" name="subject" placeholder="Subject..">
 
-    <label for="subject">Message</label>
-    <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+    <label for="subject">How many People?</label>
+    <input type="text" id="subject" name="people" placeholder="1,2,3,4...">
+      
+    <label for="country">What Time?</label>
+    <input type="text" id="subject" name="time" placeholder="Time...">
+      
 
-    <input type="submit" value="Submit">
+    <button type="button" onclick="myFunction()">Submit</button>
   </form>
 </div> 
 <a href= "../../index.html">Home</a>
